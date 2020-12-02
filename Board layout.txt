@@ -1,0 +1,120 @@
+#Boardgame layout
+#
+#Pano types
+#	1=green
+#	2=white
+#	3=blue
+Inn_0:
+	Spaces: 5
+Shop_1:
+	Soaces: 2
+Temple_1:
+	Spaces: 1
+Encounter_1:
+	Spaces: 1
+Pano_G_1:
+	Spaces: 1
+Baths_1:
+	Spaces: 2
+Pano_W_1:
+	Spaces: 2
+Farm_1:
+	Spaces: 2
+Shop_2:
+	Spaces: 1
+Temple_2:
+	Spaces: 2
+Encounter_2:
+	Spaces: 1
+Pano_B_1:
+	Spaces: 2
+Pano_W_2:
+	Spaces: 1
+Baths_2:
+	Spaces: 1
+
+Inn_1:
+	Spaces: 5
+Pano_B_2:
+	Spaces: 1
+Temple_3:
+	Spaces: 1
+Farm_2:
+	Spaces: 2
+Pano_G_2:
+	Spaces: 2
+Pano_W_3:
+	Spaces: 2
+Encounter_3:
+	Spaces: 2
+Temple_4:
+	Spaces: 1
+Baths_3:
+	Spaces: 2
+Pano_W_4:
+	Spaces: 1
+Pano_B_3:
+	Spaces: 2
+Shop_3:
+	Spaces: 1
+Farm_3:
+	Spaces: 1
+
+Inn_2:
+	Spaces: 5
+Pano_G_3:
+	Spaces: 1
+Shop_4:
+	Spaces: 1
+Encounter_4:
+	Spaces: 2
+Farm_4:
+	Spaces: 1
+Pano_W_5:
+	Spaces: 2
+Baths_4:
+	Spaces: 1
+Pano_B_4:
+	Spaces: 2
+Pano_G_4:
+	Spaces: 1
+Temple_5:
+	Spaces: 2
+Farm_5:
+	Spaces: 2
+Encounter_5:
+	Spaces: 1
+Pano_B_5:
+	Spaces: 1
+Shop_5:
+	Spaces: 2
+
+Inn_3:
+	Spaces: 5
+Baths_5:
+	Spaces: 1
+Temple_6:
+	Spaces: 2
+Encounter_6:
+	Spaces: 1
+Shop_6:
+	Spaces: 2
+Pano_B_6:
+	Spaces: 1
+Farm_6:
+	Spaces: 2
+Baths_6:
+	Spaces: 2
+Encounter_7:
+	Spaces: 1
+Pano_W_6:
+	Spaces: 1
+Pano_G_5:
+	Spaces: 2
+Pano_B_7:
+	Spaces: 2
+Shop_7:
+	Spaces: 1
+
+Inn_4:
+	Spaces: 5
