@@ -1,0 +1,812 @@
+[
+ {
+   "stopNumber": 0,
+   "stopType": "inn",
+   "boardSectionFromLeft": 0,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -530,
+     "y": 0,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 1,
+   "stopType": "shop",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -510,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -510
+ },
+ {
+   "stopNumber": 2,
+   "stopType": "temple",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -490,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 3,
+   "stopType": "encounter",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -470,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 4,
+   "stopType": "pano_g",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -450,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 5,
+   "stopType": "bath",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -430,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -430
+ },
+ {
+   "stopNumber": 6,
+   "stopType": "pano_w",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -410,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -410
+ },
+ {
+   "stopNumber": 7,
+   "stopType": "farm",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -390,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -390
+ },
+ {
+   "stopNumber": 8,
+   "stopType": "shop",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -370,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 9,
+   "stopType": "temple",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -350,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -350
+ },
+ {
+   "stopNumber": 10,
+   "stopType": "encounter",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -330,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 11,
+   "stopType": "pano_b",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -310,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -310
+ },
+ {
+   "stopNumber": 12,
+   "stopType": "bath",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 4,
+   "isOpen": true,
+   "pos":{
+     "x": -290,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 13,
+   "stopType": "inn",
+   "boardSectionFromLeft": 1,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -270,
+     "y": 0,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 14,
+   "stopType": "pano_b",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -250,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 15,
+   "stopType": "temple",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -230,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 16,
+   "stopType": "farm",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -210,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -210
+ },
+ {
+   "stopNumber": 17,
+   "stopType": "pano_g",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -190,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -190
+ },
+ {
+   "stopNumber": 18,
+   "stopType": "pano_w",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -170,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -170
+ },
+ {
+   "stopNumber": 19,
+   "stopType": "encounter",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -150,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -150
+ },
+ {
+   "stopNumber": 20,
+   "stopType": "temple",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -130,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 21,
+   "stopType": "bath",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -110,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -110
+ },
+ {
+   "stopNumber": 22,
+   "stopType": "pano_w",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -90,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 23,
+   "stopType": "pano_b",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -70,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": -70
+ },
+ {
+   "stopNumber": 24,
+   "stopType": "shop",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -50,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 25,
+   "stopType": "farm",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -30,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 26,
+   "stopType": "inn",
+   "boardSectionFromLeft": 2,
+   "boardSectionFromRight": 3,
+   "isOpen": true,
+   "pos":{
+     "x": -10,
+     "y": 0,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 27,
+   "stopType": "pano_g",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 10,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 28,
+   "stopType": "shop",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 30,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 29,
+   "stopType": "encounter",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 50,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 50
+ },
+ {
+   "stopNumber": 30,
+   "stopType": "farm",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 70,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 31,
+   "stopType": "pano_w",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 90,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 90
+ },
+ {
+   "stopNumber": 32,
+   "stopType": "bath",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 110,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 33,
+   "stopType": "pano_b",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 130,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 130
+ },
+ {
+   "stopNumber": 34,
+   "stopType": "pano_g",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 150,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 35,
+   "stopType": "temple",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 170,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 170
+ },
+ {
+   "stopNumber": 36,
+   "stopType": "farm",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 190,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 190
+ },
+ {
+   "stopNumber": 37,
+   "stopType": "encounter",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 210,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 38,
+   "stopType": "pano_b",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 230,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 39,
+   "stopType": "shop",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 2,
+   "isOpen": true,
+   "pos":{
+     "x": 250,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 250
+ },
+ {
+   "stopNumber": 40,
+   "stopType": "inn",
+   "boardSectionFromLeft": 3,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 270,
+     "y": 0,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 41,
+   "stopType": "bath",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 290,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 42,
+   "stopType": "temple",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 310,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 310
+ },
+ {
+   "stopNumber": 43,
+   "stopType": "encounter",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 330,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 44,
+   "stopType": "shop",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 350,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 350
+ },
+ {
+   "stopNumber": 45,
+   "stopType": "pano_b",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 370,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 46,
+   "stopType": "farm",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 390,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 390
+ },
+ {
+   "stopNumber": 47,
+   "stopType": "bath",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 410,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 410
+ },
+ {
+   "stopNumber": 48,
+   "stopType": "encounter",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 430,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 49,
+   "stopType": "pano_w",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 450,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 50,
+   "stopType": "pano_g",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 470,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 470
+ },
+ {
+   "stopNumber": 51,
+   "stopType": "pano_b",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 490,
+     "y": 40,
+   },
+   "isAboveRoad": true,
+   "hasSecondSpace": true,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": 490
+ },
+ {
+   "stopNumber": 52,
+   "stopType": "shop",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 1,
+   "isOpen": true,
+   "pos":{
+     "x": 510,
+     "y": -40,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ },
+ {
+   "stopNumber": 53,
+   "stopType": "inn",
+   "boardSectionFromLeft": 4,
+   "boardSectionFromRight": 0,
+   "isOpen": true,
+   "pos":{
+     "x": 530,
+     "y": 0,
+   },
+   "isAboveRoad": false,
+   "hasSecondSpace": false,
+   "secondSpaceIsOpen": true,
+   "secondSpaceYPos": null
+ }
+]
