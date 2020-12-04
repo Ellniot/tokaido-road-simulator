@@ -1,8 +1,6 @@
-import json
 
 
-
-def main():
+def draw_board(win, t, board_data):
 
 
 main()

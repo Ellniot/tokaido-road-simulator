@@ -3,155 +3,155 @@
     {
       "name": "closest",
       "info": {
-        "encounters": "1",
-        "pano_g": "1",
-        "pano_w": "1",
-        "pano_b": "1",
-        "temple": "1",
-        "shop": "1",
-        "bath": "1",
-        "farm": "1",
-        "inn": "1"
+        "encounters": 1,
+        "pano_g": 1,
+        "pano_w": 1,
+        "pano_b": 1,
+        "temple": 1,
+        "shop": 1,
+        "bath": 1,
+        "farm": 1,
+        "inn": 1
       }
     },
     {
       "name": "encounters",
       "info": {
-        "encounters": "10",
-        "pano_g": "0",
-        "pano_w": "0",
-        "pano_b": "0",
-        "temple": "0",
-        "shop": "0",
-        "bath": "0",
-        "farm": "0",
-        "inn": "1"
+        "encounters": 10,
+        "pano_g": 0,
+        "pano_w": 0,
+        "pano_b": 0,
+        "temple": 0,
+        "shop": 0,
+        "bath": 0,
+        "farm": 0,
+        "inn": 1
       }
     },
     {
       "name": "all_panos",
       "info": {
-        "encounters": "0",
-        "pano_g": "10",
-        "pano_w": "10",
-        "pano_b": "10",
-        "temple": "0",
-        "shop": "0",
-        "bath": "0",
-        "farm": "0",
-        "inn": "1"
+        "encounters": 0,
+        "pano_g": 10,
+        "pano_w": 10,
+        "pano_b": 10,
+        "temple": 0,
+        "shop": 0,
+        "bath": 0,
+        "farm": 0,
+        "inn": 1
       }
     },
     {
       "name": "pano_g",
       "info": {
-        "encounters": "0",
-        "pano_g": "10",
-        "pano_w": "0",
-        "pano_b": "0",
-        "temple": "0",
-        "shop": "0",
-        "bath": "0",
-        "farm": "0",
-        "inn": "1"
+        "encounters": 0,
+        "pano_g": 10,
+        "pano_w": 0,
+        "pano_b": 0,
+        "temple": 0,
+        "shop": 0,
+        "bath": 0,
+        "farm": 0,
+        "inn": 1
       }
     },
     {
       "name": "pano_w",
       "info": {
-        "encounters": "0",
-        "pano_g": "0",
-        "pano_w": "10",
-        "pano_b": "0",
-        "temple": "0",
-        "shop": "0",
-        "bath": "0",
-        "farm": "0",
-        "inn": "1"
+        "encounters": 0,
+        "pano_g": 0,
+        "pano_w": 10,
+        "pano_b": 0,
+        "temple": 0,
+        "shop": 0,
+        "bath": 0,
+        "farm": 0,
+        "inn": 1
       }
     },
     {
       "name": "pano_b",
       "info": {
-        "encounters": "0",
-        "pano_g": "0",
-        "pano_w": "0",
-        "pano_b": "10",
-        "temple": "0",
-        "shop": "0",
-        "bath": "0",
-        "farm": "0",
-        "inn": "1"
+        "encounters": 0,
+        "pano_g": 0,
+        "pano_w": 0,
+        "pano_b": 10,
+        "temple": 0,
+        "shop": 0,
+        "bath": 0,
+        "farm": 0,
+        "inn": 1
       }
     },
     {
       "name": "temple",
       "info": {
-        "encounters": "0",
-        "pano_g": "0",
-        "pano_w": "0",
-        "pano_b": "0",
-        "temple": "10",
-        "shop": "0",
-        "bath": "0",
-        "farm": "0",
-        "inn": "1"
+        "encounters": 0,
+        "pano_g": 0,
+        "pano_w": 0,
+        "pano_b": 0,
+        "temple": 10,
+        "shop": 0,
+        "bath": 0,
+        "farm": 0,
+        "inn": 1
       }
     },
     {
       "name": "shop",
       "info": {
-        "encounters": "0",
-        "pano_g": "0",
-        "pano_w": "0",
-        "pano_b": "0",
-        "temple": "0",
-        "shop": "10",
-        "bath": "0",
-        "farm": "0",
-        "inn": "1"
+        "encounters": 0,
+        "pano_g": 0,
+        "pano_w": 0,
+        "pano_b": 0,
+        "temple": 0,
+        "shop": 10,
+        "bath": 0,
+        "farm": 0,
+        "inn": 1
       }
     },
     {
       "name": "bath",
       "info": {
-        "encounters": "0",
-        "pano_g": "0",
-        "pano_w": "0",
-        "pano_b": "0",
-        "temple": "0",
-        "shop": "0",
-        "bath": "10",
-        "farm": "0",
-        "inn": "1"
+        "encounters": 0,
+        "pano_g": 0,
+        "pano_w": 0,
+        "pano_b": 0,
+        "temple": 0,
+        "shop": 0,
+        "bath": 10,
+        "farm": 0,
+        "inn": 1
       }
     },
     {
       "name": "farm",
       "info": {
-        "encounters": "0",
-        "pano_g": "0",
-        "pano_w": "0",
-        "pano_b": "0",
-        "temple": "0",
-        "shop": "0",
-        "bath": "0",
-        "farm": "10",
-        "inn": "1"
+        "encounters": 0,
+        "pano_g": 0,
+        "pano_w": 0,
+        "pano_b": 0,
+        "temple": 0,
+        "shop": 0,
+        "bath": 0,
+        "farm": 10,
+        "inn": 1
       }
     },
     {
       "name": "inn",
       "info": {
-        "encounters": "0",
-        "pano_g": "0",
-        "pano_w": "0",
-        "pano_b": "0",
-        "temple": "0",
-        "shop": "0",
-        "bath": "0",
-        "farm": "0",
-        "inn": "10"
+        "encounters": 0,
+        "pano_g": 0,
+        "pano_w": 0,
+        "pano_b": 0,
+        "temple": 0,
+        "shop": 0,
+        "bath": 0,
+        "farm": 0,
+        "inn": 10
       }
     }
   ]

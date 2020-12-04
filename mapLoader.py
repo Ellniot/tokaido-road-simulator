@@ -2,7 +2,7 @@ import json
 
 TEST_LOAD_MAP_JSON = False
 
-def loadMapJson():
+def load_map_json():
     with open('FullBoardData.json') as json_file:
         try:
             data = json.load(json_file)
@@ -13,7 +13,8 @@ def loadMapJson():
             print("Length of JSON = ", len(data))
             print("1st object = ", data[0])
             print("1st object['stopType'] = ", data[0]['stopType'])
+        return data
 
 
 if TEST_LOAD_MAP_JSON:
-    loadMapJson()
+    load_map_json()
