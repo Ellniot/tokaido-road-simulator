@@ -11,6 +11,7 @@ class Gameboard():
     game_board_data = {}
     configs = {}
 
+    # list to hold the players
 
     def __init__(self, game_board_data, configs):
         self.win.screensize(configs["game_win_size_x"], configs["game_win_size_y"])
