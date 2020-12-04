@@ -47,20 +47,37 @@ class Player:
 
     # where openSpaces is [0,1,1.5,...] - space indecies
     def takeTurn(self, openSpaces):
-        if OUTPUT_PLAYER_TURNS:
-            print('Player 1 - moving to: ' + destinationName)
+        print("openSpaces = ", openSpaces)
         desiredSpaceRank = 10
         space_found = False # keep looping until a choice is made
+        destinationName = ""
         while(not space_found):            
             # Iterate through the strat high->low
+            #print(self.strat)
+            print ("self.strat = ", self.strat)
             for sp_rnk in self.strat:
-                if strat.get(sp_rnk) == desiredSpaceRank:
+                print ("sp_rnk = ", sp_rnk)
+                #print("desiredSpaceRank = ", desiredSpaceRank)
+                # TODO: REFACTOR THIS IF/ELSE INTO A DECREASING FOR LOOP
+                #print("self.strat.get(sp_rnk) = ", self.strat.get(sp_rnk))
+                if self.strat.get(sp_rnk) == desiredSpaceRank:
+                    print("STRAT SPACE RANK == DESIRED SPACE RANK")
                     # Iterate through the available spaces close->far
-                    for i in range(openSpaces):
-                        if roadmap[openSpaces[i]][0] == sp_rnk:
+                    print("len(openSpaces) = ", len(openSpaces), "len(roadmap) = ", len(roadmap))
+                    for i in openSpaces:
+                        if (float(i) % 1) == .5:
+                            print(i)
+                        #print (openSpaces.index(i))
+                        # compare to the roadmap dict to match space name
+                        if roadmap[openSpaces.index(i)][0] == sp_rnk:
                             space_found = True
-                            self.space = self.space + i + 1 # b/c it starts form 0
+                            self.space = self.space + i + 1 # b/c it starts from 0
                             self.position = SPACES_COORDS_DICT.get(self.space)
+                            print(self.position)
+            # just looped through all space ranks in the strat, none of them were high enough & available
+            desiredSpaceRank = desiredSpaceRank - 1
+        if OUTPUT_PLAYER_TURNS:
+            print('Player 1 - moving to: ' + destinationName)
                             
                 
             
@@ -179,88 +196,99 @@ def FindBackPlayer(p_list):
             last_space_number = p.getSpace()
     return p
         
-def GetOpenSpaces(p_list):
-    inn_locations = [1,14,27,41,54]
-    past_inn_index = 0
-    current_locations = []
-    occupied_inn = 10 # something out of index of the inns
-    second_inn = 10
-    open_spaces = []
-    for p in p_list:
-        current_locations.append(p.getSpace())
-        # check if a player is between inns, this tells which spaces to use
-        if p.getSpace() not in inn_locations:
-            # see which inn was just left
-            for i in inn_locations:
-                if i < p.getSpace():
-                    past_inn_index = i
-                else:
-                    break
-            break
-        # player is at an inn
-        else:
-            # check if an inn is occupied
-            if occupied_inn == 10:
-                # set the current inn to this player's location
-                occupied_inn = p.getSpace()
-            # check if the player is at the same inn as the other player
-            elif occupied_inn == p.getSpace():
-                # do nothing
-                break
-            # the player is at a different inn from the other player,
-            # but we'll check anyways
-            elif occupied_inn != p.getSpace():
-                second_inn = p.getSpace()
-            else:
-                print('Error, this case shouldnt be reached')
-    if OUTPUT_OPEN_SPACE_GEN:
-        print('Current player locations: ' + str(current_locations))
-        if occupied_inn != 10:
-            print('Inn at ' + inn_locations[occupied_inn] + ' occupied')
-            if second_inn != 10:
-                print('Second inn at ' + inn_locations[second_inn] + ' occupied')
-    # see if anyone is past each inn
-    occupied_inn = 10
-    for i in range(len(inn_locations)):
-        for l in current_locations:
-            if l > inn_locations[i]:
-                break; # break out of this inner for loop, increment outer loop
-            else:
-                next_inn_index = i+1
-    if OUTPUT_OPEN_SPACE_GEN:
-        print('Next inn: ' + str(inn_locations[past_inn_index+1]))
-    # create a list of stop indexes between the inns, include the ending inn
-    for i in range(inn_locations[past_inn_index], inn_locations[past_inn_index+1]+1):
-        open_spaces.append(i)
-        # see if there is a second spot on the stop
-        i_plus = i + 0.5
-        # if the half space is in the dictionary, add it
-        if str(i_plus) in SPACES_KEYS:
-            open_spaces.append(i_plus)
-    if OUTPUT_OPEN_SPACE_GEN:
-        print('List of spaces before next inn (inclusive): ' + str(open_spaces))
-    # remove the spaces where players are
-    for p in p_list:
-        # check if the players are negative b/c it is the start of the game
-        if p.getSpace() > 0:
-            open_spaces.remove(p.getSpace())
-    if OUTPUT_OPEN_SPACE_GEN:
-        print('List of available spaces before next inn (inclusive): ' + str(open_spaces))
+#def GetOpenSpaces(p_list):
+#    inn_locations = [1,14,27,41,54]
+#    past_inn_index = 0
+#    current_locations = []
+#    occupied_inn = 10 # something out of index of the inns
+#    second_inn = 10
+#    open_spaces = []
+#    for p in p_list:
+#        current_locations.append(p.getSpace())
+#        # check if a player is between inns, this tells which spaces to use
+#        if p.getSpace() not in inn_locations:
+#            # see which inn was just left
+#            for i in inn_locations:
+#                if i < p.getSpace():
+#                    past_inn_index = i
+#                else:
+#                    break
+#            break
+#        # player is at an inn
+#        else:
+#            # check if an inn is occupied
+#            if occupied_inn == 10:
+#                # set the current inn to this player's location
+#                occupied_inn = p.getSpace()
+#            # check if the player is at the same inn as the other player
+#            elif occupied_inn == p.getSpace():
+#                # do nothing
+#                break
+#            # the player is at a different inn from the other player,
+#            # but we'll check anyways
+#            elif occupied_inn != p.getSpace():
+#                second_inn = p.getSpace()
+#            else:
+#                print('Error, this case shouldnt be reached')
+#    if OUTPUT_OPEN_SPACE_GEN:
+#        print('Current player locations: ' + str(current_locations))
+#        if occupied_inn != 10:
+#            print('Inn at ' + inn_locations[occupied_inn] + ' occupied')
+#            if second_inn != 10:
+#                print('Second inn at ' + inn_locations[second_inn] + ' occupied')
+#    # see if anyone is past each inn
+#    occupied_inn = 10
+#    for i in range(len(inn_locations)):
+#        for l in current_locations:
+#            if l > inn_locations[i]:
+#                break; # break out of this inner for loop, increment outer loop
+#            else:
+#                next_inn_index = i+1
+#    if OUTPUT_OPEN_SPACE_GEN:
+#        print('Next inn: ' + str(inn_locations[past_inn_index+1]))
+#    # create a list of stop indexes between the inns, include the ending inn
+#    for i in range(inn_locations[past_inn_index], inn_locations[past_inn_index+1]+1):
+#        open_spaces.append(i)
+#        # see if there is a second spot on the stop
+#        i_plus = i + 0.5
+#        # if the half space is in the dictionary, add it
+#        if str(i_plus) in SPACES_KEYS:
+#            open_spaces.append(i_plus)
+#    if OUTPUT_OPEN_SPACE_GEN:
+#        print('List of spaces before next inn (inclusive): ' + str(open_spaces))
+#    # remove the spaces where players are
+#    for p in p_list:
+#        # check if the players are negative b/c it is the start of the game
+#        if p.getSpace() > 0:
+#            open_spaces.remove(p.getSpace())
+#    if OUTPUT_OPEN_SPACE_GEN:
+#        print('List of available spaces before next inn (inclusive): ' + str(open_spaces))
         
                 
-        
-    
+def GetOpenSpaces(playerList):
+    # removes the keys from the spaces_keys list that the players are on
+    openSpaces = SPACES_KEYS
+    for p in playerList:
+        if str(p.space) in openSpaces:
+            openSpaces.remove(str(p.space))
+    return openSpaces
+
+
 def SimGame(numPlayers, playerInfo):
 # player info is a list of (playerType, strat) tuples
     playerTurtleList = []
-    #DrawGameBoard()
+    # TODO: Have drawgame enabled from the configs
+    DrawGameBoard()
     # confirm that len(playerInfo == numPlayers)
     if numPlayers != len(playerInfo):
         print('ERROR: Player Info List does not match number of players!')
         return 0
     playerList = [Player(i,playerInfo[i][0],playerInfo[i][1]) for i in range(numPlayers)]
+    print("SPACES_KEYS TYPE = ", type(SPACES_KEYS))
+    openSpaces = GetOpenSpaces(playerList)
+    print("openSpaces = ", openSpaces)
     gameover = False
-    # main game loop
+    # main game loop, run once per player movement
     while(not gameover):
         # find the furthest back player
         currentPlayer = FindBackPlayer(playerList)
